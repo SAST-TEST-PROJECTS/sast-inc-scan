@@ -1,6 +1,7 @@
 package io.mend.analysis.repo.test.service;
 
 import io.mend.analysis.repo.test.model.Model1;
+import io.mend.analysis.repo.test.model.Model2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -8,9 +9,14 @@ import org.springframework.stereotype.Service;
 public class Service1 {
 
     @Autowired private Model1 model1;
+    @Autowired private Model2 model2;
 
-    public void logUserInput(String userInput){
-        model1.logUserInput(userInput);
+    public String logInfoUserInput(String userInput){
+        return model1.logInfoUserInput(userInput);
+    }
+
+    public String logDebugUserInput(String userInput){
+        return model2.logDebugUserInput(userInput);
     }
 
 }
