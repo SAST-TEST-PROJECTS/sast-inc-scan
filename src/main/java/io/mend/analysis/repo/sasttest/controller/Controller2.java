@@ -10,12 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/controller2")
 public class Controller2 {
 
-    @Autowired
-    private Service1 service1;
+  @Autowired private Service1 service1;
 
-    @GetMapping("/logDebugUserInput")
-    public String logDebugUserInput(String userInput){
-        return service1.logDebugUserInput(userInput);
-    }
-
+  @GetMapping("/logDebugUserInput")
+  public String logDebugUserInput(String userInput) {
+    return service1.logDebugUserInput(userInput);
+  }
 }

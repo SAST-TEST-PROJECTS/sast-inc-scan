@@ -11,19 +11,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/controller1")
 public class Controller1 {
 
-    @Autowired
-    private Service1 service1;
+  @Autowired private Service1 service1;
 
-    @GetMapping("/hello")
-    public String hello(){
-        return "Hello world";
-    }
+  @GetMapping("/hello")
+  public String hello() {
+    return "Hello world";
+  }
 
-
-    @GetMapping("/logInfoUserInput")
-    public String logInfoUserInput(@RequestParam(value = "userInput", required = true)String userInput){
-        return service1.logInfoUserInput(userInput);
-    }
-
-
+  @GetMapping("/logInfoUserInput")
+  public String logInfoUserInput(
+      @RequestParam(value = "userInput", required = true) String userInput) {
+    return service1.logInfoUserInput(userInput);
+  }
 }
