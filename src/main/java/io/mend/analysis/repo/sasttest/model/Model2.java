@@ -1,4 +1,4 @@
-package io.mend.analysis.repo.test.model;
+package io.mend.analysis.repo.sasttest.model;
 
 
 import lombok.extern.slf4j.Slf4j;

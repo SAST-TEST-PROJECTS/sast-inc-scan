@@ -1,4 +1,4 @@
-package io.mend.analysis.repo.test;
+package io.mend.analysis.repo.sasttest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

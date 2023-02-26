@@ -1,6 +1,6 @@
-package io.mend.analysis.repo.test.controller;
+package io.mend.analysis.repo.sasttest.controller;
 
-import io.mend.analysis.repo.test.service.Service1;
+import io.mend.analysis.repo.sasttest.service.Service1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ public class Controller2 {
     private Service1 service1;
 
     @GetMapping("/logDebugUserInput")
-    public String logUserInput(String userInput){
+    public String logDebugUserInput(String userInput){
         return service1.logDebugUserInput(userInput);
     }
 

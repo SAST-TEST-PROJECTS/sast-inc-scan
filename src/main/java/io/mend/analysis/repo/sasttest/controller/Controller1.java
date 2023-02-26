@@ -1,6 +1,6 @@
-package io.mend.analysis.repo.test.controller;
+package io.mend.analysis.repo.sasttest.controller;
 
-import io.mend.analysis.repo.test.service.Service1;
+import io.mend.analysis.repo.sasttest.service.Service1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,7 +21,7 @@ public class Controller1 {
 
 
     @GetMapping("/logInfoUserInput")
-    public String logUserInput(@RequestParam(value = "userInput", required = true)String userInput){
+    public String logInfoUserInput(@RequestParam(value = "userInput", required = true)String userInput){
         return service1.logInfoUserInput(userInput);
     }
 

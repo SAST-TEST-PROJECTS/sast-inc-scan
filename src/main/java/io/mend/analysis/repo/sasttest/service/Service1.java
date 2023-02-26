@@ -1,7 +1,7 @@
-package io.mend.analysis.repo.test.service;
+package io.mend.analysis.repo.sasttest.service;
 
-import io.mend.analysis.repo.test.model.Model1;
-import io.mend.analysis.repo.test.model.Model2;
+import io.mend.analysis.repo.sasttest.model.Model2;
+import io.mend.analysis.repo.sasttest.model.Model1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
