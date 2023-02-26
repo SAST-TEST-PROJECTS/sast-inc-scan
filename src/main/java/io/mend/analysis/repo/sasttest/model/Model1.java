@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class Model1 {
 
-  public String logInfoUserInput(String userInput) {
-    log.info("userInput= {}", userInput);
+  public String logInfoUserInput(String userInput, int number) {
+    log.info("userInput= {}. number={}", userInput, number);
 
-    return userInput;
+    return userInput + "-" + number;
   }
 }
