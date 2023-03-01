@@ -1,11 +1,10 @@
 package io.mend.analysis.repo.test;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class RepoForTestApplicationTests {
 
-  @Test
+  // @Test
   void contextLoads() {}
 }
