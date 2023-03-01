@@ -22,4 +22,8 @@ public class Service1 {
   public String logDebugUserInput(String userInput) {
     return model2.logDebugUserInput(userInput);
   }
+
+  public void printUserInput(String userInput){
+    System.out.println("userInput: " + userInput);
+  }
 }
