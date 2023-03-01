@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class Model2 {
 
   public String logDebugUserInput(String userInput) {
-    log.debug("userInput= {}", userInput);
+    log.info("userInput= {}", userInput);
 
     return userInput;
   }
