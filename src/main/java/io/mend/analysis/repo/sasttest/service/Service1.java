@@ -23,7 +23,7 @@ public class Service1 {
     return model2.logDebugUserInput(userInput);
   }
 
-  public void printUserInput(String userInput){
+  public void printUserInput(String userInput) {
     System.out.println("userInput: " + userInput);
   }
 }
