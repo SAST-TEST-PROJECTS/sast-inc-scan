@@ -59,7 +59,7 @@
 						</excludes>
 						<googleJavaFormat>
 							<style>GOOGLE</style>
-							<version>1.15.0</version>
+							<version>1.17.0</version>
 						</googleJavaFormat>
 					</java>
 				</configuration>
