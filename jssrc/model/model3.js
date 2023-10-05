@@ -1,6 +1,6 @@
 exports.logDebugUserInput = (userInput) => {
 
-    console.debug("User input: " + userInput);
+    console.info("User input: " + userInput);
     return userInput;
 
 };
