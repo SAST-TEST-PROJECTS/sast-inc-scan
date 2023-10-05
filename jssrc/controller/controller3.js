@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get('/newEntry', (req, res) => {
 
-    const result = service1.logDebugUserInput(req.query.userInput);
+    const result = service1.logInfoUserInput(req.query.userInput);
     res.json({ result: result });
 } );
 
